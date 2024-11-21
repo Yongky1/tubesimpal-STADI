@@ -27,9 +27,9 @@ export const Sidebar = () => (
             <span>
                 <FaChevronDown />
             </span>
-            <h2>Task</h2>
+            <h2>Projects</h2>
         </div>
-        <ul className="sidebar__task">Task will be here!</ul>
+        <ul className="sidebar__task">Project will be here!</ul>
         Add project component here
     </div>
 );
