@@ -29,7 +29,7 @@ export const Sidebar = () => (
             </span>
             <h2>Projects</h2>
         </div>
-        <ul className="sidebar__task">Project will be here!</ul>
-        Add project component here
+        <ul className="sidebar__task">Project Uhuy</ul>
+        Add project 
     </div>
 );

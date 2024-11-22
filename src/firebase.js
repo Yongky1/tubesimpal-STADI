@@ -1,7 +1,6 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+import { initializeApp } from 'firebase/app';
 
-const firebaseConfig = firebase.initializeAPP({
+const firebaseConfig = {
     apiKey: "AIzaSyDDEr9CP4vtNcd_hslRhlNkpGQGWSkQT58",
     authDomain: "stadi-a1ee5.firebaseapp.com",
     databaseURL: "https://stadi-a1ee5-default-rtdb.firebaseio.com",
@@ -9,8 +8,8 @@ const firebaseConfig = firebase.initializeAPP({
     storageBucket: "stadi-a1ee5.firebasestorage.app",
     messagingSenderId: "490558228128",
     appId: "1:490558228128:web:ce72b48143e595c247ebc5"
-});
+};
 
+const firebaseApp = initializeApp(firebaseConfig);
 
-
-export { firebaseConfig as firebase };
+export { firebaseApp };
