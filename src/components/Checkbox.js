@@ -1,9 +1,9 @@
 import React from 'react';
 import { getFirestore, doc, updateDoc } from 'firebase/firestore';
-import { firebaseApp } from '../firebase'; 
+import { firestore } from '../firebase';
 
 export const Checkbox = ({ id }) => {
-    const db = getFirestore(firebaseApp); 
+    const db = firestore;
 
     const archiveTask = () => {
         const taskRef = doc(db, 'tasks', id); 
