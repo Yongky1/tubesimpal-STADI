@@ -1,5 +1,4 @@
 import { useEffect, useContext } from 'react';
-import { SiTodoist } from 'react-icons/si';
 import { FcGoogle } from 'react-icons/fc';
 import { IoPerson } from 'react-icons/io5';
 import { RiErrorWarningFill } from 'react-icons/ri';
@@ -35,8 +34,7 @@ const SignUp = () => {
     <div className='auth'>
       <div className='auth__container' data-cy='auth__container'>
         <div className='auth__brand'>
-          <SiTodoist />
-          <span>todoist clone</span>
+          <span>Stadi</span>
         </div>
         <h1 className='auth__title'>Sign up</h1>
         <button

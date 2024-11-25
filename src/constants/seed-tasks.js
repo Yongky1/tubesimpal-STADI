@@ -2,28 +2,28 @@ import { WELCOME_PROJECT_ID } from "./welcome-project-id";
 
 export const SEED_TASKS = [
   {
-    name: 'Select this task to see more details 🔎',
-    description: 'Quick notes and links can go here.',
+    name: 'Tekan untuk melihat detail 🔎',
+    description: 'Catatan singkat dapat dilihat disini.',
     dueDate: '',
     projectId: WELCOME_PROJECT_ID,
   },
   {
-    name: 'Schedule this task 📅',
-    description: 'You can use the date picker to schedule a task.',
+    name: 'Jadwalkan Tugas 📅',
+    description: 'Anda dapat menggunakan pemilih tanggal untuk menjadwalkan tugas.',
     dueDate: '',
     projectId: WELCOME_PROJECT_ID,
   },
   {
-    name: 'Start your own project! 🚀',
+    name: 'Mulai project anda sendiri 🚀',
     description:
-      'Hit `+` next to **Projects** in your navigation menu to create a new project.',
+      'Tekan `+` di samping **Projects** di menu navigasi Anda untuk membuat proyek baru.',
     dueDate: '',
     projectId: WELCOME_PROJECT_ID,
   },
   {
-    name: 'Use Quick Add to create tasks! ✍️',
+    name: 'Gunakan Tambah Cepat untuk membuat tugas ✍️',
     description:
-      'Click the + icon in the top-right corner of the app to open Quick Add. Then fill in all the details for your task.',
+      'Klik ikon + di sudut kanan atas aplikasi untuk membuka Tambah Cepat. Kemudian isi semua detail untuk tugas Anda.',
     dueDate: '',
     projectId: WELCOME_PROJECT_ID,
   },
