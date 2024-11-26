@@ -13,12 +13,12 @@ const ContentPlaceholder = ({ page, dueDate }) => {
         alt='Empty Inbox Image'
       />
       <p className='content_pMedium'>
-        {page === 'today' ? 'Get a clear view of the day ahead.' : 'All clear'}
+        {page === 'today' ? 'Dapatkan pandangan yang jelas tentang hari yang akan datang.' : 'Semua Beres'}
       </p>
       <p className='content_pSmall'>
         {page === 'today'
-          ? 'All your tasks that are due today will show up here.'
-          : 'Looks like everything is organized in the right place.'}
+          ? 'Semua tugas Anda yang jatuh tempo hari ini akan muncul di sini.'
+          : 'Sepertinya semuanya diatur di tempat yang tepat.'}
       </p>
       <button
         onClick={() => handleTaskModalOpen(EMPTY_TASK, dueDate)}
